@@ -12,9 +12,9 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-blue-500 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                className="menu menu-sm dropdown-content bg-blue-00 rounded-box z-1 mt-3 w-52 p-2 shadow">
                                 <li className='font-semibold'><a href='/'>Home</a></li>
-                                <li className='font-semibold'><a href='/allproducts'>Products</a></li>
+                                {/* <li className='font-semibold'><a href='/allproducts'>Products</a></li> */}
 
                              
                             </ul>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <div className="navbar-center hidden lg:flex">
                         <ul className="flex gap-5  px-1">
                             <li className='font-semibold'><a href='/'>Home</a></li>
-                            <li className='font-semibold'><a href='/allproducts'> Products</a></li>
+                            {/* <li className='font-semibold'><a href='/allproducts'> Products</a></li> */}
 
                         </ul>
                     </div>
