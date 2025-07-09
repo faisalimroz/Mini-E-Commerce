@@ -48,7 +48,7 @@ const Products = () => {
             <h2 className="text-3xl font-bold text-center mb-8">Our Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
               
-                {products.slice(0,8).map((product) => (
+                {products.map((product) => (
                     <div key={product._id} className="card  bg-base-100 w-[200px] shadow-md hover:shadow-xl transition-shadow duration-300">
                         <Link to={`/product/${product._id}`}>
                             <figure>
