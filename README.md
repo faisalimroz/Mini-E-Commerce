@@ -1,11 +1,13 @@
 Mini E-Commerce
+
+
 This is a responsive single-page e-commerce application built with React.js. It features a clean user interface for browsing products, adding them to a cart, and simulating a checkout process.
 
-Live Project Link: https://your-live-project-link.vercel.app/
+Live Project Link: https://miniecommercee.netlify.app/
 
 GitHub Repository: https://github.com/faisalimroz/Mini-E-Commerce
 
-Features
+Features:
 This application includes the following pages and features:
 
 1. Home Page
@@ -38,7 +40,7 @@ A modal that appears when the "Checkout" button is clicked.
 
 Contains a simple form with fields for Name, Email, and Address.
 
-A "Submit" button simulates placing an order (no backend API integration is required for this task).
+A "Submit" button simulates placing an order.
 
 Technologies Used
 Frontend:
@@ -48,15 +50,15 @@ Deployment:
 
 Vercel / Netlify: For hosting the live version of the application.
 
-Getting Started
+Getting Started:
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
-Node.js (v18.x or later recommended)
+Prerequisites:
+Node.js version 19 or higher is recommended
 
 npm or yarn
 
-Installation
+Installation:
 npm install 
 npm install vite
 How to run
